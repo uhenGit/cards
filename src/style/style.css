@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "source_sans_proregular";
+  src: local("source_sans_proregular"),
+    url("./fonts/SourceSansPro-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 20px;
+  width: 368px;
+  height: 212px;
+  font-family: "source_sans_proregular";
+}
+h2,
+p,
+span,
+a {
+  color: rgb(255, 255, 255);
+}
+h2 {
+  font-size: 28px;
+}
+p,
+a {
+  font-size: 16px;
+}
+span {
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+}
+button {
+  font-size: 12px;
+  color: rgb(48, 43, 61);
+  background: rgb(255, 255, 255);
+  border-radius: 6px;
+}

@@ -1,0 +1,174 @@
+.outer {
+  width: 368px;
+  height: 212px;
+  overflow: hidden;
+}
+
+.backgroundImgR {
+  background-image: url("../assets/1046.png");
+  border-radius: 18px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.shadowR,
+.infoR {
+  margin: 20px;
+}
+
+.shadowR {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  width: 368px;
+  height: 212px;
+  border-radius: 18px;
+  top: 25.2%;
+  left: 0;
+}
+
+.gradientR {
+  position: absolute;
+  top: 25.2%;
+  width: 368px;
+  height: 212px;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 18px;
+}
+
+.linkR {
+  top: 40%;
+  left: 3%;
+  max-width: 94%;
+  text-align: right;
+  opacity: 0;
+  transition-duration: 600ms;
+  height: 0;
+  overflow: hidden;
+}
+
+/* .descriptionR {
+  max-width: 80%;
+  position: relative;
+  top: 1%;
+  left: 5.5%;
+  line-height: 1.35;
+  opacity: 1;
+  transition-duration: 800ms;
+} */
+
+.linkR a::after {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background-image: url("../assets/right-arrow.png");
+  background-repeat: no-repeat;
+  margin-left: 4px;
+}
+
+.roundBlockR {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  /* background: rgb(200, 20, 52); */
+  background: linear-gradient(
+    60deg,
+    rgba(35, 70, 180, 0.8) 0%,
+    rgba(180, 20, 200, 0.8) 100%
+  );
+  position: absolute;
+  top: -5%;
+  left: -3%;
+  transition-duration: 800ms;
+}
+
+.hoverBlockR {
+  position: relative;
+  top: -51%;
+}
+.likeR {
+  margin-bottom: 7px;
+}
+.likeR span::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  background-image: url("../assets/like.png");
+  background-repeat: no-repeat;
+  margin-right: 7px;
+}
+
+.descriptionR span::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-image: url("../assets/user.png");
+  background-repeat: no-repeat;
+  margin-right: 7px;
+}
+
+.upR {
+  margin: 17px 19px;
+  transition-duration: 800ms;
+  position: relative;
+  top: 30px;
+  height: 17px;
+  overflow: hidden;
+}
+/*animation gradient block from 108px to full card*/
+.activeR {
+  width: 390px;
+  height: 230px;
+  transition-duration: 800ms;
+  top: -7%;
+  left: -5%;
+  border-radius: 18px;
+}
+/*show-hide link*/
+.showR {
+  opacity: 1;
+  height: 20px;
+}
+/*show-hide user*/
+.moveR {
+  height: 45px;
+  top: 0;
+}
+.infoR {
+  border-radius: 18px;
+  padding: 10px;
+  width: 368px;
+  height: 212px;
+  position: absolute;
+  top: 25.2%;
+  left: 0;
+}
+
+.infoR > * {
+  position: relative;
+}
+
+.infoR h2 {
+  max-width: 85%;
+  top: 3%;
+  left: 3%;
+  line-height: 1.2;
+}
+
+.btnR {
+  top: 51%;
+  left: 3%;
+}
+
+.infoR div button {
+  padding: 1px 10px 2px 7px;
+}
+
+.infoR div span {
+  margin-left: 8px;
+}
