@@ -7,7 +7,7 @@ const Review = ({ cardInfo }) => {
   const active = () => setHover(!hover);
   return (
     <div className="container">
-      <div className="outer" onMouseEnter={active} onMouseLeave={active}>
+      <div className="outerR" onMouseEnter={active} onMouseLeave={active}>
         <div className="backgroundImgR"></div>
         <div className="shadowR"></div>
         <div className="gradientR">

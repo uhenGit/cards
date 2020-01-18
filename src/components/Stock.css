@@ -2,18 +2,16 @@
   width: 368px;
   height: 212px;
   overflow: hidden;
+  position: relative;
 }
+
 .backgroundImg {
   background-image: url("../assets/paper-bag.png");
   border-radius: 18px;
   width: 100%;
   height: 100%;
-  position: relative;
 }
-.shadow,
-.info {
-  margin: 20px;
-}
+
 .shadow {
   background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
@@ -25,15 +23,16 @@
   bottom: 0;
   left: 0;
 }
+
 .gradient {
   position: absolute;
   top: 0;
   width: 368px;
   height: 212px;
-  margin: 20px auto;
   overflow: hidden;
   border-radius: 18px;
 }
+
 .link {
   top: 40%;
   left: 3%;
@@ -42,6 +41,7 @@
   opacity: 0;
   transition-duration: 600ms;
 }
+
 .description {
   max-width: 80%;
   position: relative;
@@ -51,6 +51,7 @@
   opacity: 0;
   transition-duration: 800ms;
 }
+
 .link a::after {
   content: "";
   display: inline-block;
@@ -76,10 +77,12 @@
   left: -3%;
   transition-duration: 800ms;
 }
+
 .hoverBlock {
   position: relative;
   top: -51%;
 }
+
 /* animation gradient block from 108px to full card */
 .active {
   width: 390px;
@@ -89,11 +92,13 @@
   left: -5%;
   border-radius: 18px;
 }
+
 /*show-hide link and description*/
 .show {
   opacity: 1;
   transition-duration: 4s;
 }
+
 .info {
   border-radius: 18px;
   padding: 10px;
@@ -105,22 +110,29 @@
   bottom: 0;
   left: 0;
 }
+
 .info > * {
   position: relative;
 }
+
 .info h2 {
   max-width: 85%;
   top: 3%;
   left: 3%;
   line-height: 1.2;
 }
+
 .btn {
   top: 51%;
   left: 3%;
+  max-width: 50%;
+  z-index: 3;
 }
+
 .info div button {
   padding: 1px 12px 2px 12px;
 }
+
 .info div span {
   margin-left: 8px;
 }

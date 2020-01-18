@@ -5,7 +5,10 @@
   font-weight: normal;
   font-style: normal;
 }
-
+html,
+body {
+  height: 100%;
+}
 *,
 ::before,
 ::after {
@@ -13,34 +16,41 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .container {
-  margin: 20px;
-  width: 368px;
-  height: 212px;
   font-family: "source_sans_proregular";
+  padding: 20px;
 }
+
 h2,
 p,
 span,
 a {
   color: rgb(255, 255, 255);
 }
+
 h2 {
   font-size: 28px;
 }
+
 p,
 a {
   font-size: 16px;
 }
+
 span {
   font-size: 14px;
 }
+
 a {
   text-decoration: none;
 }
+
 button {
   font-size: 12px;
   color: rgb(48, 43, 61);
   background: rgb(255, 255, 255);
   border-radius: 6px;
+  cursor: pointer;
+  outline: none;
 }
